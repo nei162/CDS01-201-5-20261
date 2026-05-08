@@ -1,0 +1,28 @@
+Proyecto integrador:  
+Los estudiantes deben construir un software funcional (Desarrollo de un sistema de gestión de pedidos) que resuelva un problema de la emrpesa cotuito amarillo sas,aplicando metodologías ágiles o tradicionales.
+
+Requerimientos y diseño  
+Documentar historias de usuario, casos de uso, diagramas UML y arquitectura del sistema.
+
+Implementación con buenas prácticas  
+Uso de control de versiones (Git), patrones de diseño, modularidad y estándares de codificación.
+
+Pruebas e integración continua  *
+Aplicar TDD (Test Driven Development), pruebas unitarias, pruebas de integración y despliegue automatizado.
+
+Documentación y calidad  
+Elaborar manuales técnicos y de usuario, además de un plan de aseguramiento de calidad.
+
+Presentación y defensa  
+Exponer el proyecto ante el grupo, justificando decisiones técnicas y mostrando resultados.
+
+---------------------------------------------------------
+Elemento	            Descripción
+Tema del proyecto	
+                      Desarrollo de un sistema de gestión de pedidos para una empresa ficticia.
+Entregables	
+                      Documento de requerimientos, diseño UML, código fuente en repositorio Git, pruebas automatizadas, manual de usuario.
+Metodología	
+                      Scrum con entregas semanales y retrospectivas.
+Evaluación	
+                      70% producto técnico, 20% documentación, 10% defensa oral.
