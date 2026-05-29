@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5001/productos";
+const API_URL = "https://redesigned-space-winner-69wxwqvj7wwg34x5r-5001.app.github.dev/productos";
 
 function App() {
   const [productos, setProductos] = useState([]);
@@ -9,11 +9,11 @@ function App() {
   const [precio, setPrecio] = useState("");
   const [editando, setEditando] = useState(null);
 
-  const cargarProductos = async () => {
-    const res = await fetch(API_URL);
-    const data = await res.json();
-    setProductos(data);
-  };
+const cargarProductos = async () => {
+  const res = await fetch(API_URL);
+  const data = await res.json();
+  setProductos(Array.isArray(data) ? data : []);
+};
 
   useEffect(() => {
     cargarProductos();
